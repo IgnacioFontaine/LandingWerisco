@@ -1,13 +1,17 @@
 
-const products = [{name:"100 Gr", image:""},{name:"250 Gr", image:""},{name:"1 Kg", image:""}],
+const products = [{id:"1" , name:"100 Gr", image:""},{id:"2" ,name:"250 Gr", image:""},{id:"3" ,name:"1 Kg", image:""}],
 
-function CardProduct({name,image}) {
+function CardProduct({id,name,image}) {
   
   return (
     <>
-      <section>
-        <h3>{image}</h3>
-        <h3>{name}</h3>
+      <section key={id}>
+        <header>
+          <img>{image}</img>
+        </header>
+        <body>
+          <h3>{name}</h3>
+        </body>
       </section>
     </>
   )
@@ -17,6 +21,10 @@ function Products() {
   
   return (
     <>
+      <section>
+        {products.map(product =>
+          <CardProduct key={product.id} name={product.name} image={product.image} />)}
+      </section>
       
     </>
   )
