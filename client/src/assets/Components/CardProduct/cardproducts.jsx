@@ -1,11 +1,25 @@
-function CardProduct() {
+
+const products = [{name:"100 Gr", image:""},{name:"250 Gr", image:""},{name:"1 Kg", image:""}],
+
+function CardProduct({name,image}) {
   
   return (
     <>
-      <h1>Werisco Landing</h1>
-      <h3>Pequeñas porciones de Felicidad</h3>
+      <section>
+        <h3>{image}</h3>
+        <h3>{name}</h3>
+      </section>
     </>
   )
 }
 
-export default CardProduct;
+function Products() {
+  
+  return (
+    <>
+      
+    </>
+  )
+}
+
+export default Products;
