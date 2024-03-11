@@ -1,3 +1,5 @@
+import AllProducts from "../CardProduct/cardproducts";
+
 function Products() {
   
   return (
@@ -14,12 +16,7 @@ function Products() {
             <th colSpan="3">Nuestros Productos</th>
           </thead>
           <tr>
-            <th colSpan="3">Cantidad</th>
-          </tr>
-          <tr>
-            <td>100 g</td>
-            <td>250 g</td>
-            <td>1 k</td>
+            <AllProducts />
           </tr>
           <tfoot>
             <td colSpan="3"><small>Consultar precio en tu Supermercado de preferencia</small></td>

@@ -17,7 +17,7 @@ function CardProduct({id,name,image}) {
   )
 }
 
-function Products() {
+function AllProducts() {
   
   return (
     <>
@@ -30,4 +30,4 @@ function Products() {
   )
 }
 
-export default Products;
+export default AllProducts;
