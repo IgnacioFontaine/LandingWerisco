@@ -2,8 +2,8 @@ function Footer() {
   
   return (
     <>
-      <section>
-        <h2 id="contactos">Contactos</h2>
+      <section >
+        <h2 id="contactos"><strong>Werisco</strong></h2>
         <p>Contáctanos por cualquiera de las vías que te dejamos aquí!</p>
         <a href="" target="_blank">Mail</a>
         <a href="" target="_blank">Whatsapp</a>

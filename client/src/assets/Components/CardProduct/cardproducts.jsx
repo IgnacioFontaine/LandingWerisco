@@ -21,7 +21,7 @@ function Products() {
   
   return (
     <>
-      <section>
+      <section id="productos">
         {products.map(product =>
           <CardProduct key={product.id} name={product.name} image={product.image} />)}
       </section>

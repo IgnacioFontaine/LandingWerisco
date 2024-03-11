@@ -2,8 +2,10 @@ function Header() {
   
   return (
     <>
-      <h1>Werisco Landing</h1>
-      <h3>Pequeñas porciones de Felicidad</h3>
+      <section id="inicio">
+        <h1>Werisco Landing</h1>
+        <h3>Pequeños pedacitos de Cielo</h3>
+      </section>
     </>
   )
 }
