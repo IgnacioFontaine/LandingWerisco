@@ -11,14 +11,14 @@ function CardProduct({id,name,image}) {
           <img src={image} alt="Merengue" />
         </div>
         <div className="name-card">
-          <h4>{name}</h4>
+        <h2>{name}</h2>
         </div>
   </div>
   )
 }
 
 function AllProducts() {
-  const products = [{id:1 , name:"100 gr", image:image100g},{id:2 ,name:"250 gr", image:image250g},{id:3 ,name:"1 kg", image:image1k}]
+  const products = [{id:1 , name:"100 g", image:image100g},{id:2 ,name:"250 g", image:image250g},{id:3 ,name:"1 kg", image:image1k}]
   
   return (
     <div >

@@ -1,8 +1,12 @@
+import "./locations.css"
+
+
+
 function Locations() {
   
   return (
     <>
-      <section>
+      <section className="locations">
         <h2 id="donde-encontrarnos">¿Dónde nos pueden encontrar?</h2>
           <p>
             Para conseguir nuestros productos te recomendamos estos lugares, es

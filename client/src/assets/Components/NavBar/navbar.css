@@ -4,12 +4,13 @@
   display: flex;
   border-radius: 20px;
   margin: 1px;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 242, 254);
   justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 0px;
-  background-color: rgb(249, 182, 240);
+  /* background-color: rgb(249, 182, 240); */
+  background-color: #ffd1fa;
   margin-inline: auto
 }
 
@@ -19,6 +20,7 @@
   list-style: none;
   height: 35px;
   border-radius: 20px;
+  margin-top: 10px;
 }
 
 .navbar li :hover{
