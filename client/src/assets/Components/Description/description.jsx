@@ -14,7 +14,7 @@ function Description() {
             pero cualquier duda podés consultarnos via Mail o por Whatsapp.
         </p>
         <br />
-        <p><i>Sin conservantes artificiales, más de 20 años en la industria acompañando tus postres y de tus tardes de mate.</i></p>
+        
       </section>
     </div>
   )

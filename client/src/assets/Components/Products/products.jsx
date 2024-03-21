@@ -6,15 +6,14 @@ function Products() {
   return (
     < div className="products-description">
       <section id="productos">
-        <h2 >Productos</h2>
-        <p>
-          Contamos actualmente con tres diferentes productos disponibles, los mismos
-          son:
-        </p>
+        <h2 >! Nuestros productos ¡</h2>
         <br />
         <section>
           <div className="contenedor-cards">
             <AllProducts />
+          </div>
+          <div>
+            <p><i>Sin conservantes artificiales, más de 20 años en la industria acompañando tus postres y de tus tardes de mate.</i></p>
           </div>
         </section>
       </section>
