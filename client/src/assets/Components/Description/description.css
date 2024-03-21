@@ -1,20 +1,19 @@
 .description {
-  border: 2px solid brown;
   width: 50%;
   height: 100%;
   margin: 2px;
   border-radius: 20px;
   padding: 2px;
+  background-color: #FFECFD;
 }
 
-.description :hover{
-  background-color: rgb(249, 182, 240);
+/* .description :hover{
   transition: 0.3s;
   transform: scale(1.01);
   border-radius: 20px;
   color: #000;
   
-}
+} */
 
 .description .description-parragraph {
   font-size: 23px;

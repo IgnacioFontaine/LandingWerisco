@@ -18,7 +18,7 @@ function CardProduct({id,name,image}) {
 }
 
 function AllProducts() {
-  const products = [{id:1 , name:"100 Gr", image:image100g},{id:2 ,name:"250 Gr", image:image250g},{id:3 ,name:"1 Kg", image:image1k}]
+  const products = [{id:1 , name:"100 gr", image:image100g},{id:2 ,name:"250 gr", image:image250g},{id:3 ,name:"1 kg", image:image1k}]
   
   return (
     <div >

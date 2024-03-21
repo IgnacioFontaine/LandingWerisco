@@ -15,7 +15,6 @@ function Products() {
         <section>
           <div className="contenedor-cards">
             <AllProducts />
-            <small>Consultar precio en tu Supermercado de preferencia</small>
           </div>
         </section>
       </section>
