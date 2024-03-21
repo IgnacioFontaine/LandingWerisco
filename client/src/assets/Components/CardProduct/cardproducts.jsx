@@ -1,5 +1,5 @@
-
-const products = [{id:1 , name:"100 Gr", image:""},{id:2 ,name:"250 Gr", image:""},{id:3 ,name:"1 Kg", image:""}]
+import image100g from "../../Image/100grImage.png";
+const products = [{id:1 , name:"100 Gr", image:image100g},{id:2 ,name:"250 Gr", image:""},{id:3 ,name:"1 Kg", image:""}]
 
 function CardProduct({id,name,image}) {
   
@@ -7,7 +7,7 @@ function CardProduct({id,name,image}) {
     <>
       <section key={id}>
         <header>
-          <img>{image}</img>
+          <img src={image} alt="Merengue" />
         </header>
         <body>
           <h3>{name}</h3>
