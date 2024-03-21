@@ -1,10 +1,12 @@
+import "./header.css"
+
 function Header() {
   
   return (
     <>
-      <section id="inicio">
-        <h1>Werisco Landing</h1>
-        <h3>Pequeños pedacitos de Cielo</h3>
+      <section className="werisco_header">
+        <h1 className="title">Werisco</h1>
+        <h3 className="subtitle">Pequeños pedacitos de Cielo</h3>
       </section>
     </>
   )
