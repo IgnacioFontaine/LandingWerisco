@@ -16,13 +16,13 @@ function Products() {
             <th colSpan="3">Nuestros Productos</th>
           </thead>
           <tr>
-            <AllProducts />
+            {/* <AllProducts /> */}
           </tr>
           <tfoot>
             <td colSpan="3"><small>Consultar precio en tu Supermercado de preferencia</small></td>
           </tfoot>
         </table>
-        <br></br>
+        <brt />
         <p><i>Sin conservantes artificiales, más de 20 años en la industria acompañando tus postres y de tus tardes de mate.</i></p>
         <br></br>
       </section>

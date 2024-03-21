@@ -1,5 +1,5 @@
 
-const products = [{id:"1" , name:"100 Gr", image:""},{id:"2" ,name:"250 Gr", image:""},{id:"3" ,name:"1 Kg", image:""}],
+const products = [{id:1 , name:"100 Gr", image:""},{id:2 ,name:"250 Gr", image:""},{id:3 ,name:"1 Kg", image:""}]
 
 function CardProduct({id,name,image}) {
   
