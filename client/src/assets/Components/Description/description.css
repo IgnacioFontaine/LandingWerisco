@@ -12,11 +12,16 @@
   transition: 0.3s;
   transform: scale(1.01);
   border-radius: 20px;
+  color: #000;
+  
 }
 
 .description .description-parragraph {
-  font-size: 22px;
+  font-size: 23px;
   font-style:italic;
-  margin: 30px;
-  margin-top: 25px;
+  text-align: center;
+  text-align-last: center;
+  margin: 35px;
+  margin-top: 40px;
+  color: rgb(95, 95, 95);
 }

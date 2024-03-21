@@ -18,8 +18,6 @@ function Products() {
             <small>Consultar precio en tu Supermercado de preferencia</small>
           </div>
         </section>
-        <p><i>Sin conservantes artificiales, más de 20 años en la industria acompañando tus postres y de tus tardes de mate.</i></p>
-        <br></br>
       </section>
     </ div>
   )

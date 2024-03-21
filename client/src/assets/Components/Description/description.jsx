@@ -12,7 +12,9 @@ function Description() {
             fabricación, horneado, envasado y distribución. Podés encontrar nuestro
             producto en muchos puntos de Córdoba, no realizamos ventas al por menor
             pero cualquier duda podés consultarnos via Mail o por Whatsapp.
-          </p>
+        </p>
+        <br />
+        <p><i>Sin conservantes artificiales, más de 20 años en la industria acompañando tus postres y de tus tardes de mate.</i></p>
       </section>
     </div>
   )
