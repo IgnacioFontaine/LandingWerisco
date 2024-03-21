@@ -1,11 +1,12 @@
+import "./products.css"
 import AllProducts from "../CardProduct/cardproducts";
 
 function Products() {
   
   return (
-    <>
-      <section>
-        <h2 id="productos">Productos</h2>
+    < div className="products-description">
+      <section id="productos">
+        <h2 >Productos</h2>
         <p>
           Contamos actualmente con tres diferentes productos disponibles, los mismos
           son:
@@ -26,7 +27,7 @@ function Products() {
         <p><i>Sin conservantes artificiales, más de 20 años en la industria acompañando tus postres y de tus tardes de mate.</i></p>
         <br></br>
       </section>
-    </>
+    </ div>
   )
 }
 
