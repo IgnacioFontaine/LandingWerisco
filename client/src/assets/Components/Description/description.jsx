@@ -1,11 +1,11 @@
-
+import "./description.css"
 
 function Description() {
   
   return (
     <>
-      <section id="quienes-somos">
-        <h2  className="description">¿Quiénes somos?</h2>
+      <section id="quienes-somos" className="description" >
+        <h2  >¿Quiénes somos?</h2>
           <p className="description-parrafo">
             Somos una empresa familiar con más de 20 años de trayectoria que se dedica
             a producir y vender merengue, a partir de la materia prima, la
