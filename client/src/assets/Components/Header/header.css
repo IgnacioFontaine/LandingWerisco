@@ -1,17 +1,17 @@
 .werisco_header{
-  border: 2px solid rgb(46, 46, 248);
   height: 250px;
-  width: 99.5%;
-  /* background: linear-gradient( rgb(255, 183, 252) 0%, rgba(254,252,254,1)); */
+  width: 100%;
+  background: linear-gradient(to bottom, pink , #FFFBFD);
 }
 
 .werisco_header .title{
   margin: 0;
-  font-size: 100px;
+  font-size: 120px;
   font-weight: bold;
 }
 
 .werisco_header .subtitle{
-  margin: 1;
-  font-size: 20px;
+  margin: 5;
+  font-size: 18px;
+  color: gray;
 }
