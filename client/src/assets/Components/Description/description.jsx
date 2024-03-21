@@ -1,10 +1,12 @@
+
+
 function Description() {
   
   return (
     <>
-      <section>
-        <h2 id="quienes-somos">¿Quiénes somos?</h2>
-          <p>
+      <section id="quienes-somos">
+        <h2  className="description">¿Quiénes somos?</h2>
+          <p className="description-parrafo">
             Somos una empresa familiar con más de 20 años de trayectoria que se dedica
             a producir y vender merengue, a partir de la materia prima, la
             fabricación, horneado, envasado y distribución. Podés encontrar nuestro
