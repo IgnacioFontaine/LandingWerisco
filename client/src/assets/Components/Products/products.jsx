@@ -12,18 +12,12 @@ function Products() {
           son:
         </p>
         <br />
-        <table>
-          <thead>
-            <th colSpan="3">Nuestros Productos</th>
-          </thead>
-          <tr>
-            {/* <AllProducts /> */}
-          </tr>
-          <tfoot>
-            <td colSpan="3"><small>Consultar precio en tu Supermercado de preferencia</small></td>
-          </tfoot>
-        </table>
-        <brt />
+        <section>
+          <div className="contenedor-cards">
+            <AllProducts />
+            <small>Consultar precio en tu Supermercado de preferencia</small>
+          </div>
+        </section>
         <p><i>Sin conservantes artificiales, más de 20 años en la industria acompañando tus postres y de tus tardes de mate.</i></p>
         <br></br>
       </section>

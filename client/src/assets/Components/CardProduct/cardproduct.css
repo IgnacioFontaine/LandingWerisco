@@ -1,0 +1,30 @@
+.contenedor-products{
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+}
+
+
+.Card {
+  border: 1px solid pink;
+  width: 180px; 
+  height: 250px;
+  background: linear-gradient(to bottom, pink, #FFFBFD);
+  border-radius: 2px;
+}
+
+.image-card {
+  text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.image-card img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.name-card {
+  
+  text-align: center; /* Centra el nombre horizontalmente */
+  padding: 1px;
+  margin: 0px; /* Espacio alrededor del nombre */
+}
