@@ -1,0 +1,36 @@
+.navbar {
+  height: 40px;
+  width: 650px;
+  display: flex;
+  border-radius: 20px;
+  margin: 1px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0px;
+  background-color: rgb(249, 182, 240);
+  margin-inline: auto
+}
+
+
+.navbar li  {
+  text-decoration: none;
+  list-style: none;
+  height: 35px;
+  border-radius: 20px;
+
+}
+
+.navbar li :hover{
+  background-color: hotpink;
+  border-radius: 25px;
+  
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
