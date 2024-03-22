@@ -1,5 +1,31 @@
 import "./locations.css"
 
+const Places = ({id,image, name, ref}) => {
+  <div>
+    <div>
+      {/* <img></img> */}
+    </div>
+    <div>
+      <h2>{name}</h2>
+      <i className="fa fa-map-marker"></i> 
+    </div>
+  </div>
+}
+
+
+function AllPlaces() {
+  const places = [{id:1 , name:"Super Mami Rodriguez del Busto", ref:""},]
+  
+  return (
+    <div >
+      <section id="productos"  >
+        {places.map(place =>
+          <Places key={place.id} name={place.name} ref={place.image} />)}
+      </section>
+      
+    </div>
+  )
+}
 
 
 function Locations() {
@@ -14,7 +40,7 @@ function Locations() {
             nuestro producto!
           </p>
           <ul>
-            <li>Super Mami Rodriguez del Busto</li>
+            <li></li>
             <li>Super Mami Ruta 20</li>
             <li>Super Mami Circunvalación</li>
             <li>Super Mami 60 Cuadras</li>
