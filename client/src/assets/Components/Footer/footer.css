@@ -1,5 +1,5 @@
 .footer-werisco{
-  height: 250px;
+  height: 220px;
   width: 100%;
   background-color: rgb(65, 65, 65);
 }
@@ -18,5 +18,14 @@
   color: pink;
   font-size: 15px;
   padding-left: 15px;
-  gap: 15px;
+  
 }
+
+.footer-link-contenedor a{
+  text-decoration: none;
+  text-transform: none;
+  padding: 10px;
+  color: pink;
+  margin-top: 0px;
+}
+

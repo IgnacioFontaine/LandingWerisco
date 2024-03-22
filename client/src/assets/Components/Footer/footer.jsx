@@ -1,5 +1,22 @@
 import "./footer.css"
 
+const mailWerisco = () => {
+  
+  return (
+    <>
+      <form>
+        <h3>Enviá tu consulta !</h3>
+        <input type="email" placeholder="Email from. . ." />
+        <input type="range" placeholder="Email from. . ." />
+        <button>Send</button>
+      </form>
+    </>
+  )
+}
+
+
+
+
 function Footer() {
   
   return (
@@ -8,7 +25,6 @@ function Footer() {
         <div >
           <h2 id="contactos" className="footer-title"><strong >Werisco &#169;</strong></h2>
         </div>
-        <p>Contáctanos por cualquiera de las vías que te dejamos aquí!</p>
         <div className="footer-link-contenedor">
           <h3>Whatsapp: +54 9 3513 85-8318</h3>
           <a href="" target="_blank">✉</a>
