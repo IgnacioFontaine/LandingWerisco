@@ -1,0 +1,15 @@
+.footer-werisco{
+  height: 190px;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+}
+
+.footer-title{
+  font-size: 30px;
+  text-align: start;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 15px;
+  color: pink;
+  
+}

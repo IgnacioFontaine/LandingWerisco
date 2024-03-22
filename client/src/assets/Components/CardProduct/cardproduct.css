@@ -15,7 +15,7 @@
 }
 
 .image-card {
-  text-align: center; /* Centra la imagen horizontalmente */
+  text-align: center; 
 }
 
 .image-card img {
@@ -25,9 +25,9 @@
 
 .name-card {
   
-  text-align: center; /* Centra el nombre horizontalmente */
+  text-align: center; 
   padding: 1px;
-  margin: 0px; /* Espacio alrededor del nombre */
+  margin: 0px; 
 }
 
 
