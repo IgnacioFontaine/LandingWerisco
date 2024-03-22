@@ -2,6 +2,8 @@
   height: 220px;
   width: 100%;
   background-color: rgb(65, 65, 65);
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-title{
@@ -27,5 +29,20 @@
   padding: 10px;
   color: pink;
   margin-top: 0px;
+}
+
+.footer-mail{
+  text-align: end;
+  padding-top: 30px;
+  padding-right: 15px;
+  color: pink;
+}
+
+.footer-email-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
 }
 

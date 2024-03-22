@@ -1,16 +1,18 @@
 import "./footer.css"
 
-const mailWerisco = () => {
+const MailWerisco = () => {
   
   return (
-    <>
-      <form>
+    <div className="footer-mail">
+      <form className="footer-email-form">
         <h3>Enviá tu consulta !</h3>
-        <input type="email" placeholder="Email from. . ." />
-        <input type="range" placeholder="Email from. . ." />
+        <label htmlFor="email">Email:</label>
+        <input type="email" name="email" placeholder="Email from. . ." />
+        <label htmlFor="text" >Text:</label>
+        <input type="text" name="text" placeholder="Write te email. . ." />
         <button>Send</button>
       </form>
-    </>
+    </div>
   )
 }
 
@@ -21,7 +23,7 @@ function Footer() {
   
   return (
     < div className="footer-werisco">
-      <section >
+      <section   >
         <div >
           <h2 id="contactos" className="footer-title"><strong >Werisco &#169;</strong></h2>
         </div>
@@ -31,6 +33,9 @@ function Footer() {
           <a href="https://www.instagram.com/werisco_/" target="_blank" className="footer-link">Instagram</a>
           <a href="https://www.facebook.com/Werisco" target="_blank" className="footer-link">FaceBook</a>
         </div>
+      </section>
+      <section>
+        <MailWerisco />
       </section>
     </ div>
   )
