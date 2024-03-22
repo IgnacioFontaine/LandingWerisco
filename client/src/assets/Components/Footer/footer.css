@@ -1,19 +1,15 @@
 .footer-werisco{
-  height: 220px;
+  height: 250px;
   width: 100%;
   background-color: rgb(65, 65, 65);
   display: flex;
-}
-
-.footer-werisco strong{
-  border-top: 1px solid pink;
 }
 
 .footer-title{
   font-size: 30px;
   text-align: start;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-left: 25px;
   color: pink;
 }
@@ -23,6 +19,7 @@
   color: pink;
   font-size: 15px;
   padding-left: 15px;
+  border-left: 2px solid pink;
   
 }
 
