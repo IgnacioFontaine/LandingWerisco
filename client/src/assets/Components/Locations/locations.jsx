@@ -1,6 +1,6 @@
 import "./locations.css"
 
-const Places = ({id,image, name, ref}) => {
+const Places = ({ id, name, ref }) => {
   <div>
     <div>
       {/* <img></img> */}
@@ -14,7 +14,19 @@ const Places = ({id,image, name, ref}) => {
 
 
 function AllPlaces() {
-  const places = [{id:1 , name:"Super Mami Rodriguez del Busto", ref:""},]
+  const places = [
+    { id: 4, name: "Super Mami Rodriguez del Busto", ref: "" },
+    { id: 5, name: "Super Mami Ruta 20", ref: "" },
+    { id: 6, name: "Super Mami Circunvalación", ref: "" },
+    { id: 7, name: "Super Mami 60 Cuadras", ref: "" },
+    { id: 8, name: "Super Mami Salsipuedes", ref: "" },
+    { id: 9, name: "Super Mami Alta Gracia", ref: "" },
+    { id: 10, name: "Super Mami San Vicente", ref: "" },
+    { id: 11, name: "Tadicor", ref: "" },
+    { id: 12, name: "La Reposterita", ref: "" },
+    { id: 13, name: "Cipriano", ref: "" },
+    { id: 14, name: "Gloria", ref: "" },
+    { id: 15, name: "", ref: "" },]
   
   return (
     <div >
@@ -34,23 +46,11 @@ function Locations() {
     <>
       <section className="locations">
         <h2 id="donde-encontrarnos">¿Dónde nos pueden encontrar?</h2>
-          <p>
+          <small>
             Para conseguir nuestros productos te recomendamos estos lugares, es
             posible que en almacenes cerca de tu hogar también puedas encontrar
             nuestro producto!
-          </p>
-          <ul>
-            <li></li>
-            <li>Super Mami Ruta 20</li>
-            <li>Super Mami Circunvalación</li>
-            <li>Super Mami 60 Cuadras</li>
-            <li>Super Mami Salsipuedes</li>
-            <li>Super Mami Alta Gracia</li>
-            <li>Super Mami San Vicente</li>
-            <li>Tadicor</li>
-            <li>La Reposterita</li>
-            <li>Cipriano</li>
-          </ul>
+          </small>
       </section>
     </>
   )
