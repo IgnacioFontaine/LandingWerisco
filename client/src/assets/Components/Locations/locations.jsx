@@ -1,14 +1,13 @@
 import "./locations.css"
 
 const Places = ({ id, name, ref }) => {
-  <div>
-    <div>
-      {/* <img></img> */}
-    </div>
-    <div>
-      <h2>{name}</h2>
-      <i className="fa fa-map-marker"></i> 
-    </div>
+  <div className="Place">
+        <div className="image-place">
+          <img src={image} alt="Merengue" />
+        </div>
+        <div className="name-place">
+        <h2>{name}</h2>
+        </div>
   </div>
 }
 
