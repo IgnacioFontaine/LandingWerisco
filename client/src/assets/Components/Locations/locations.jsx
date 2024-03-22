@@ -40,8 +40,11 @@ function AllPlaces() {
         </div>
         <div >
           <h2 className="name-place">{places[0].name}</h2>
-        </div>
-  </div>
+          </div>
+          <div className="map-place">
+            <a href="" target="_blank" className="	fa fa-map-marker"></a>
+          </div>
+      </div>
       </section>
     </div>
   )

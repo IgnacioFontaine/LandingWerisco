@@ -28,6 +28,12 @@
   margin: 15px; 
 }
 
+.map-place{
+  text-align: center;
+  font-size: 18px; 
+  padding: 1px;
+  margin: 15px;
+}
 
 .Place :hover{
   transition: 0.1s;
