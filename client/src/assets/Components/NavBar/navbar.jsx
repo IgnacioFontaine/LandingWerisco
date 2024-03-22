@@ -11,7 +11,7 @@ function NavBar() {
           <a href="index.html#donde-encontrarnos">¿Dónde nos pueden encontrar?</a>
         </li>
         <li><a href="index.html#productos">Productos</a></li>
-        <li><a href="index.html#contactos">Contactos</a></li>
+        <li><a href="index.html#contactos">Contacto</a></li>
       </ul>
     </>
   )

@@ -3,15 +3,14 @@
   width: 650px;
   display: flex;
   border-radius: 20px;
-  margin: 1px;
+  margin: 10px;
   border: 1px solid rgb(255, 242, 254);
   justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 0px;
-  /* background-color: rgb(249, 182, 240); */
   background-color: #ffd1fa;
-  margin-inline: auto
+  margin-inline: auto;
 }
 
 
@@ -24,9 +23,9 @@
 }
 
 .navbar li :hover{
-  background-color: hotpink;
-  border-radius: 25px;
   
+  text-decoration: underline;
+  text-decoration-color: plum;
 }
 
 .navbar a{

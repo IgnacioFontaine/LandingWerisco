@@ -3,6 +3,7 @@
   width: 100%;
   background-color: rgb(65, 65, 65);
   display: flex;
+  margin-top: 100px;
 }
 
 .footer-title{
