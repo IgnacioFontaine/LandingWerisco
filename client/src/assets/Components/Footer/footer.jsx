@@ -28,10 +28,10 @@ function Footer() {
           <h2 id="contactos" className="footer-title"><strong >Werisco &#169;</strong></h2>
         </div>
         <div className="footer-link-contenedor">
-          <h3>Whatsapp: +54 9 3513 85-8318</h3>
-          <a href="" target="_blank">✉</a>
-          <a href="https://www.instagram.com/werisco_/" target="_blank" className="footer-link">Instagram</a>
-          <a href="https://www.facebook.com/Werisco" target="_blank" className="footer-link">FaceBook</a>
+          <a href="" target="_blank" ><i className="fa fa-envelope email-icon"></i></a>
+          <a href="" target="_blank" className="fa fa-whatsapp"></a>
+          <a href="https://www.facebook.com/Werisco" target="_blank" className="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/werisco_/" target="_blank" className="fa fa-instagram"></a>
         </div>
       </section>
       <section>
