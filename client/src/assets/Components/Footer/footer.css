@@ -31,21 +31,6 @@
   margin-top: 0px;
 }
 
-.footer-mail{
-  text-align: end;
-  padding-top: 15px;
-  padding-right: 15px;
-  color: pink;
-}
-
-.footer-email-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  
-}
-
 .fa {
   padding: 0px;
   font-size: 30px;
@@ -54,18 +39,16 @@
   text-decoration: none;
 }
 
-/* Efecto al pasar el mouse (opcional) */
+
 .fa:hover {
   opacity: 0.7;
 }
 
-/* Color específico para cada red social */
-/* Facebook */
 .fa-facebook {
   color: white;
 }
 
-/* Instagram */
+
 .fa-instagram {
   color: white;
 }

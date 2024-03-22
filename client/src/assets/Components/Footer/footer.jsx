@@ -1,24 +1,5 @@
 import "./footer.css"
 
-const MailWerisco = () => {
-  
-  return (
-    <div className="footer-mail">
-      <form className="footer-email-form">
-        <h3>Enviá tu consulta !</h3>
-        <label htmlFor="email">Email:</label>
-        <input type="email" name="email" placeholder="Email from. . ." />
-        <label htmlFor="text" >Text:</label>
-        <input type="text" name="text" placeholder="Write te email. . ." />
-        <button>Send</button>
-      </form>
-    </div>
-  )
-}
-
-
-
-
 function Footer() {
   
   return (
