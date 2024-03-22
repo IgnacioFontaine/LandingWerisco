@@ -10,8 +10,8 @@ function Footer() {
         </div>
         <p>Contáctanos por cualquiera de las vías que te dejamos aquí!</p>
         <div className="footer-link-contenedor">
-          <a href="" target="_blank">Mail</a>
-          <a href="" target="_blank">Whatsapp</a>
+          <h3>Whatsapp: +54 9 3513 85-8318</h3>
+          <a href="" target="_blank">✉</a>
           <a href="https://www.instagram.com/werisco_/" target="_blank" className="footer-link">Instagram</a>
           <a href="https://www.facebook.com/Werisco" target="_blank" className="footer-link">FaceBook</a>
         </div>
