@@ -1,6 +1,5 @@
 import "./cardLocations.css"
 import merengue_imagen from "../../Image/100grImage.png";
-import { useNavigate } from "react-router-dom";
 
 const PlaceCard = ({ id, name, direc }) => {
   
@@ -14,7 +13,7 @@ const PlaceCard = ({ id, name, direc }) => {
           <h6 className="direc-place">{direc}</h6>
         </div>
           <div className="map-place">
-            <a href="" rel="noopener noreferrer" target="_blank"  className="	fa fa-map-marker"></a>
+            <a  rel="noopener noreferrer" target="_blank"  className="	fa fa-map-marker"></a>
           </div>
       </div>
   )
@@ -31,11 +30,11 @@ export default function AllPlaces() {
     
     { id: 7, name: "Super Mami 60 Cuadras", ref: "https://maps.app.goo.gl/zUNgZqzLjEXXHbuM6", direc: "Colectora de Circunvalación, X5000 Córdoba" },
     
-    { id: 8, name: "Super Mami Salsipuedes", ref: "E53 1011, X5113 Córdoba", direc: "https://maps.app.goo.gl/zrUjasr9pBgbn6qo8" },
+    { id: 8, name: "Super Mami Salsipuedes", ref: "https://maps.app.goo.gl/zrUjasr9pBgbn6qo8", direc: "E53 1011, X5113 Córdoba" },
     
     { id: 9, name: "Super Mami Alta Gracia", ref: "https://maps.app.goo.gl/zGwxSxeQ6wVHEodN6", direc: "Gabino Ezeiza 1081, RP5, Km 29, Alta Gracia, Córdoba" },
     
-    { id: 10, name: "Super Mami San Vicente", ref: "Agustín Garzón 1252B°, X5001 Córdoba", direc: "https://maps.app.goo.gl/Sh7qyTzFCtNHFBLW8" },
+    { id: 10, name: "Super Mami San Vicente", ref: "https://maps.app.goo.gl/Sh7qyTzFCtNHFBLW8", direc: "Agustín Garzón 1252B°, X5001 Córdoba" },
     
     { id: 11, name: "Tadicor", ref: "https://maps.app.goo.gl/YaKCcyXzM2y6bPg99", direc: "colectora Norte, salida 1B, Avenida Circunvalacion, Córdoba" },
     
