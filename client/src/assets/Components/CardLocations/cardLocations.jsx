@@ -1,18 +1,18 @@
 import "./cardLocations.css"
 import merengue_imagen from "../../Image/100grImage.png";
 
-const PlaceCard = ({ id, name, direcc, ref }) => {
+const PlaceCard = ({ id, name, direc }) => {
   return (
     <div className="Place" key={id}>
         <div className="image-place">
           <img src={merengue_imagen} alt="Merengue" />
         </div>
         <div >
-        <h2 className="name-place">{name}</h2>
-        <h6>{direcc}</h6>
-          </div>
+          <h2 className="name-place">{name}</h2>
+          <h6 className="direc-place">{direc}</h6>
+        </div>
           <div className="map-place">
-            <a href={ref} target="_blank" className="	fa fa-map-marker"></a>
+            <a href="" target="_blank"  className="	fa fa-map-marker"></a>
           </div>
       </div>
   )
@@ -41,14 +41,17 @@ export default function AllPlaces() {
     
     { id: 13, name: "Cipriano", ref: "https://maps.app.goo.gl/uPf2SMEV8VzRwR3X6", direc: "Fournier 2364, X5011 Córdoba" },
     
-    { id: 14, name: "Gloria", ref:"https://maps.app.goo.gl/9YFkyxVTbmEAUNKn7", direc:"Av. Rafael Núñez 3742, X5009 CFR, Córdoba" },
-    { id: 15, name: "" },]
+    { id: 14, name: "Gloria", ref:"https://maps.app.goo.gl/9YFkyxVTbmEAUNKn7", direc:"Av. Rafael Núñez 3742, X5009 CFR, Córdoba" }]
   
   return (
     <div >
       <section id="locations-contenedor" className="cont-locations" >
         {places.map(place =>
-          <PlaceCard key={place.id} name={place.name} className="location-card" />)}
+          <PlaceCard
+            key={place.id}
+            name={place.name}
+            direc={place.direc}
+            className="location-card" />)}
       </section>
     </div>
   )
