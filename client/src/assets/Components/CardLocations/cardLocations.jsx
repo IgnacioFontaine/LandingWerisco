@@ -1,7 +1,9 @@
 import "./cardLocations.css"
 import merengue_imagen from "../../Image/100grImage.png";
+import { useNavigate } from "react-router-dom";
 
 const PlaceCard = ({ id, name, direc }) => {
+  
   return (
     <div className="Place" key={id}>
         <div className="image-place">
@@ -12,7 +14,7 @@ const PlaceCard = ({ id, name, direc }) => {
           <h6 className="direc-place">{direc}</h6>
         </div>
           <div className="map-place">
-            <a href="" target="_blank"  className="	fa fa-map-marker"></a>
+            <a href="" rel="noopener noreferrer" target="_blank"  className="	fa fa-map-marker"></a>
           </div>
       </div>
   )
