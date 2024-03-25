@@ -2,7 +2,7 @@
 .Place {
   border: 1px solid pink;
   width: 450px; 
-  height: 90px;
+  height: 110px;
   background: linear-gradient(to bottom, pink, #FFFBFD);
   border-radius: 2px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
