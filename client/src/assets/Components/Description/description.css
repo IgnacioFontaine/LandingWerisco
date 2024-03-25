@@ -18,3 +18,9 @@
   margin-top: 40px;
   color: rgb(95, 95, 95);
 }
+
+.description-image{
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+}

@@ -32,5 +32,6 @@
   text-decoration: none;
   color: black;
   list-style: none;
+  transition: 0.5s;
 }
 
