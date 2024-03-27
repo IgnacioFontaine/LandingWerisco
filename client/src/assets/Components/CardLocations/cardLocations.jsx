@@ -44,9 +44,11 @@ export default function AllPlaces() {
     
     { id: 14, name: "Mayorista Victor Cipriano", map_direc: "https://maps.app.goo.gl/uPf2SMEV8VzRwR3X6", direc: "Fournier 2364, X5011 Córdoba" },
     
-    { id: 15, name: "Gloria", map_direc:"https://maps.app.goo.gl/9YFkyxVTbmEAUNKn7", direc:"Av. Rafael Núñez 3742, X5009 CFR, Córdoba" },
+    { id: 15, name: "Gloria", map_direc: "https://maps.app.goo.gl/9YFkyxVTbmEAUNKn7", direc: "Av. Rafael Núñez 3742, X5009 CFR, Córdoba" },
+
+    { id: 16, name: "Sweet Sur Distribuidora", map_direc:"https://maps.app.goo.gl/6P7AEfZ1izGZWb4b6", direc:"General Bernardo O'Higgins 2788, X5000 Córdoba" },
     
-    { id: 16, name: "Almacenes y cotillones", map_direc:"", direc:"Consultá en tu almacén de confianza!" }]
+    { id: 17, name: "Almacenes y cotillones", map_direc:"", direc:"Consultá en tu almacén de confianza!" }]
   
   return (
     <div >
