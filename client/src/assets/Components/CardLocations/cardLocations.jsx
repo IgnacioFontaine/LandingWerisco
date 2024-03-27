@@ -35,14 +35,18 @@ export default function AllPlaces() {
     { id: 9, name: "Super Mami Alta Gracia", map_direc: "https://maps.app.goo.gl/zGwxSxeQ6wVHEodN6", direc: "Gabino Ezeiza 1081, RP5, Km 29, Alta Gracia, Córdoba" },
     
     { id: 10, name: "Super Mami San Vicente", map_direc: "https://maps.app.goo.gl/Sh7qyTzFCtNHFBLW8", direc: "Agustín Garzón 1252B°, X5001 Córdoba" },
+
+    { id: 11, name: "Super Mami Estación Caroya", map_direc: "https://maps.app.goo.gl/2Ybcyyfsp2pc3kqn6", direc: "XVJP+GR, Col. Caroya, Córdoba" },
     
-    { id: 11, name: "Tadicor", map_direc: "https://maps.app.goo.gl/YaKCcyXzM2y6bPg99", direc: "colectora Norte, salida 1B, Avenida Circunvalacion, Córdoba" },
+    { id: 12, name: "Tadicor", map_direc: "https://maps.app.goo.gl/YaKCcyXzM2y6bPg99", direc: "colectora Norte, salida 1B, Avenida Circunvalacion, Córdoba" },
     
-    { id: 12, name: "La Reposterita", map_direc: "https://maps.app.goo.gl/KRxifh6sDH4WoCVg7", direc: "Esquina Rivadavia, Oncativo 101, X5000 Córdoba" },
+    { id: 13, name: "La Reposterita", map_direc: "https://maps.app.goo.gl/KRxifh6sDH4WoCVg7", direc: "Esquina Rivadavia, Oncativo 101, X5000 Córdoba" },
     
-    { id: 13, name: "Cipriano", map_direc: "https://maps.app.goo.gl/uPf2SMEV8VzRwR3X6", direc: "Fournier 2364, X5011 Córdoba" },
+    { id: 14, name: "Mayorista Victor Cipriano", map_direc: "https://maps.app.goo.gl/uPf2SMEV8VzRwR3X6", direc: "Fournier 2364, X5011 Córdoba" },
     
-    { id: 14, name: "Gloria", map_direc:"https://maps.app.goo.gl/9YFkyxVTbmEAUNKn7", direc:"Av. Rafael Núñez 3742, X5009 CFR, Córdoba" }]
+    { id: 15, name: "Gloria", map_direc:"https://maps.app.goo.gl/9YFkyxVTbmEAUNKn7", direc:"Av. Rafael Núñez 3742, X5009 CFR, Córdoba" },
+    
+    { id: 16, name: "Almacenes y cotillones", map_direc:"", direc:"Consultá en tu almacén de confianza!" }]
   
   return (
     <div >
