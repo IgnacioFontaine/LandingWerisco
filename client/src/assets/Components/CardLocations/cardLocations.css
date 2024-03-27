@@ -8,6 +8,11 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
+  transition: transform 0.3s ease; 
+}
+
+.Place:hover {
+  transform: scale(1.1); 
 }
 
 .image-place {
