@@ -9,7 +9,7 @@
   border: 1px solid pink;
   width: 220px; 
   height: 300px;
-  background: linear-gradient(to bottom, pink, #FFFBFD);
+  background:  linear-gradient(to bottom,rgb(212, 120, 136), #FFFBFD);
   border-radius: 2px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }

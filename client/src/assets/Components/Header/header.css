@@ -1,7 +1,7 @@
 .werisco_header{
   height: 310px;
   width: 100%;
-  background: linear-gradient(to bottom, pink , #FFFBFD);
+  background: linear-gradient(to bottom, rgb(212, 120, 136), #FFFBFD);
 }
 
 .werisco_header .title{

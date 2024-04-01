@@ -4,8 +4,7 @@
   margin: 2px;
   border-radius: 20px;
   padding: 2px;
-  /* background-color: #FFECFD; */
-  border: 2px pink;
+  border: 2px rgb(212, 120, 136);
   border-style: dashed;
 }
 
